@@ -1,0 +1,20 @@
+{
+    "name": "vendor/education-php-library",
+    "type": "library",
+    "description": "Simple student education",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anton Shulga",
+            "email": "shandm85@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Education\\": "src"
+        }
+    }
+}
